@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>𝒮𝑒𝒶𝓈𝑜𝓃𝓈𝒸𝒶𝓅𝑒</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #008080;">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand text-white"><img src=season_logo.png height="75" width="75">S E A S O N S C A P E</a>
+            <ul class="navbar-nav fs-6">
+                <li class="nav-item"><a href="#home" class="nav-link active text-white">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link active text-white">About</a></li>
+                <li class="nav-item"><a href="#specials" class="nav-link active text-white">Specials</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link active text-white">Services</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link active text-white">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link active text-white">Contact</a></li>
+                <li data-bs-toggle="modal" data-bs-target="#signin" >
+                    <button class="btn btn-info rounded-pill">Sign In</button>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+
+
+<!--Model for signin-->
+<div class="modal fade" id="signin">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Sign In here</h2>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!--Landing page section-->
+<section id="home">
+    <div class="container-fluid" style="background-color: #E0F2F2;">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-md-9 ">
+
+                <div class="carousel slide" id="mycard" data-bs-ride="carousel" data-bs-intervel="1000">
+                    <div class="carousel-indicators">
+                        <button class="active"data-bs-target="#mycard" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#mycard" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#mycard" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="summer.jpg" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="winter.jpg" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="rainy.jpg" alt="" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-target="#mycard" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#mycard" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <br><br><br>
+</section>
+
+    <!--About section-->
+    <div class="container" id="about">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-3">
+                <h1><u><b>What we Do</b></u></h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 ">
+                <p >we make traveling seamless and exciting by offering seasonal travel experiences tailored for Summer, Winter, and Rainy seasons. Whether you're looking a sun-soaked beach vacation, a snowy mountain escape, or a refreshing monsoon retreat, we have the perfect trip plannedfor for you!</p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <img src="waterfall.jpg" alt="" height="250" width="380">
+                        <h2 class="card-title">Rainy</h2>
+                        <p>Embrace the beauty of the rainy season with our refreshing seasonal trips! Enjoy lush green landscapes, serene waterfalls, and cozy getaways perfect for relaxation. Let the soothing rains make your journey unforgettable! 🌧️🌿✨</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Book now</button>
+                        <button class="btn btn-warning">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <img src="vally.jpg" alt="" height="250" width="380">
+                        <h2 class="card-title">Winter</h2>
+                        <p>Experience the magic of winter with our exclusive seasonal trips! Enjoy snow-covered landscapes, thrilling activities like skiing and snowboarding, and cozy stays in warm cabins. Let us create the perfect winter adventure for you! ❄️🏔️</p>
+                    </div>
+                
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Book now</button>
+                        <button class="btn btn-warning">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <img src="beach.jpg" alt="" height="250" width="380">
+                        <h2 class="card-title">Summer</h2>
+                        <p>Enjoy the perfect summer getaway with our seasonal trips! Relax on sunny beaches, explore exotic destinations, and indulge in thrilling water adventures with family and friends. Let us make your summer unforgettable! ☀️🏖️🌊</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Book now</button>
+                        <button class="btn btn-warning">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <hr>
+    <br>
+
+    <!--Specials section-->
+<section id="specials">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5">
+                <h1><u><b>What makes us special</b></u></h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-11">
+                <p>Our mission is to create unforgettable seasonal travel experiences by offering carefully curated trips that align with the beauty and essence of each season.</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-11">
+                <p>Promote immersive travel experiences that celebrate the best of each season, Provide customized itineraries tailored to individual preferences, Encourage responsible travel that benefits local communities and preserves the environment, Deliver seamless and well-organized trips with 24/7 customer support.</p>
+            </div>
+        </div>
+        <br><br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card border-0">
+                <div class="card-header border-0">
+                    <img src="Personalized_Travel.webp" alt="" height="400" width="615">
+                    <h3 class="card-title d-flex justify-content-center">Personalized Travel Experiences</h3>
+                    <p class="d-flex justify-content-center">A happy traveler exploring a customized journey.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card border-0">
+                <div class="card-header border-0">
+                    <img src="vip.webp" alt="" height="400" width="615">
+                    <h2 class="card-title d-flex justify-content-center">Exclusive VIP Tours</h2>
+                    <p class="d-flex justify-content-center">A private guided tour with a luxury yacht.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+            <h2><u><b>We can make any type of trips for you</b></u></h2>
+        </div>
+    </div>
+    </div>
+    <br><br>
+    <hr>
+    <br><br>
+</section>
+
+    <!--services section-->
+<section id="services">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-3">
+                <h2><u><b>Service we offer</b></u></h2>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <p>We offer curated seasonal travel experiences, including guided tours, adventure activities, and personalized trip planning. Our services cover accommodation, transportation, and exclusive local experiences tailored to each season. Enjoy hassle-free bookings and expert recommendations for an unforgettable journey!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <img src="accomidation.webp" alt="" height="250" width="380">
+                        <h2 class="card-title">Well Accomidation</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <img src="food.webp" alt="" height="250" width="380">
+                        <h2 class="card-title">Delicious Food</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <img src="security.webp" alt="" height="250" width="380">
+                        <h2 class="card-title">100% security</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <hr>
+    <br><br>
+</section>
+
+    <!--Gallery section-->
+<section id="gallery">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4">
+                <h2><b><u>Your Journey in Pictures</u></b></h2>
+            </div>
+            <div class="col-md-11">
+                <p>Explore breathtaking destinations and unforgettable moments captured from our seasonal trips. Let these stunning visuals inspire your next adventure! 🌍📸✨</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-3">
+                <h6>Personalized Travel Moments</h6>
+                <img src="Personalized_Travel_Moments.webp" height="250" width="300" alt="Personalized Travel Moments"> 
+                <div class="d-flex justify-content-center mt-2">
+                    <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#myimg" aria-expanded="false">
+                        Show More Photos
+                    </button>
+                   
+                </div>
+                <div class="collapse" id="myimg">
+                    <img src="PTM1.webp" class="img-fluid mb-2" alt="Personalized_Travel_Moments">
+                    <img src="PTM2.webp" class="img-fluid mb-2" alt="Personalized_Travel_Moments">
+                    <img src="PTM3.webp" class="img-fluid" alt="Personalized_Travel_Moments">
+                </div>
+                
+            </div>
+
+            <div class="col-md-3">
+                <h6>Monsoon Magic</h6>
+                <img src="Monsoon_Magic.webp" height="250" width="300" alt="Personalized Travel Moments"> 
+                <div class="d-flex justify-content-center mt-2">
+                    <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#myimg2" aria-expanded="false">
+                        Show More Photos
+                    </button>
+                </div>
+                <div class="collapse mt-2" id="myimg2">
+                    <img src="MM1.webp" class="img-fluid mb-2" alt="Monsoon Magic">
+                    <img src="MM2.webp" class="img-fluid mb-2" alt="Monsoon Magic">
+                    <img src="MM3.webp" class="img-fluid" alt="Monsoon Magic">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h6>Sunny Summer Escapes</h6>
+                <img src="Sunny_Summer.webp" height="250" width="300" alt="Personalized Travel Moments"> 
+                <div class="d-flex justify-content-center mt-2">
+                    <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#myimg3" aria-expanded="false">
+                        Show More Photos
+                    </button>
+                </div>
+                <div class="collapse mt-2" id="myimg3">
+                    <img src="SS1.webp" class="img-fluid mb-2" alt="Sunny Summer Escapes">
+                    <img src="SS2.webp" class="img-fluid mb-2" alt="Sunny Summer Escapes">
+                    <img src="SS3.webp" class="img-fluid" alt="Sunny Summer Escapes">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h6>Winter Wonderland Adventures</h6>
+                <img src="Wonderland_Adventures.webp" height="250" width="300" alt="Personalized Travel Moments"> 
+                <div class="d-flex justify-content-center mt-2">
+                    <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#myimg4" aria-expanded="false">
+                        Show More Photos
+                    </button>
+                </div>
+                <div class="collapse mt-2" id="myimg4">
+                    <img src="WW1.webp" class="img-fluid mb-2" alt="Sunny Summer Escapes">
+                    <img src="WW2.webp" class="img-fluid mb-2" alt="Sunny Summer Escapes">
+                    <img src="WW3.webp" class="img-fluid" alt="Sunny Summer Escapes">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</section>
+    <!--Footer-->
+<section id="contact">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #008080;">
+        <div class="container text-white">
+            <div class="row col-md-12">
+                <h2 class="d-flex justify-content-center"><u><b>Want to contact us?</b></u></h2><br><br><br>
+                <div class="row col-md-4">
+                    <h4 class="d-flex justify-content-center">You can contact us directly by :</h4>
+                    <h6 class="d-flex justify-content-center">phone: +919182242386</h6>
+                    <h6 class="d-flex justify-content-center">mail: allamabhi01@gamil.com</h6>
+                </div>
+                <div class="row col-md-4">
+                    <h4 class="d-flex justify-content-center">Contact us by filling out the form</h4>
+                    <button class="btn rounded-pill border border-dark-white text-white btn-sm"><h6>Click on me for filling out a form</h6></button>
+                </div>
+                <div class="row col-md-4">
+                    <h4 class="d-flex justify-content-center">Address :</h4>
+                    <h6 class="d-flex justify-content-center">H:no : 4-11/1</h6>
+                    <h6 class="d-flex justify-content-center">Mirapyr Cross-Roads, Hyderabad</h6>
+                    <p class="d-flex justify-content-center">location: https://maps.app.goo.gl/YnevHK541YfzfTSx6</p>
+                </div>
+                <div class="row col-md-12">
+                    <h6 class="d-flex justify-content-center">You can also contact by</h6>
+                </div>
+                <div class="row text-center justify-content-center"><br>
+                    <div class="col-auto"><i class="fa-brands fa-instagram fa-2x"></i></div>
+                    <div class="col-auto"><i class="fa-brands fa-facebook fa-2x"></i></div>
+                    <div class="col-auto"><i class="fa-brands fa-twitter fa-2x"></i></div><br><br><br>
+
+                    <p>©SEASONSCAPE, All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+</body>
+</html>
